@@ -15,7 +15,7 @@ import logo from "../../../asset/images/logo.png";
 import menuIcon from "../../../asset/images/menuIcon.png";
 import { Container } from "react-bootstrap";
 function Banner() {
-
+    console.log("checked");
     let accountAd;
     const [disable, setDisable]= useState(false);
     const [disable1, setDisable1]= useState(false);
